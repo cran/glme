@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("nlme", nlme, lme, pdSymm, reStruct, lmeStruct, varFunc,
+           getGroupsFormula, asOneFormula)
+importFrom("reshape", melt)
+importFrom("dplyr", filter, select)
+importFrom("stats", asOneSidedFormula, formula, lm,
+           model.frame, model.matrix, na.fail, optimize,
+           rchisq, rf)
+
